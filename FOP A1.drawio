@@ -1,0 +1,288 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="KJW42ozMd16tahOy46pz">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LYB6ajkYGbn3poAuFUK--9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="LYB6ajkYGbn3poAuFUK--8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-14.171428571428805" y="-420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7ZRuDNEcXIY4bK4t6kx-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-64" y="-480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="e7ZRuDNEcXIY4bK4t6kx-9" target="uRmu0ZygPyewiigmkrXm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7ZRuDNEcXIY4bK4t6kx-9" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;Calculate float M as Monthly Repayment:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;M = (P * (r / 12)) / (1 - pow((1 + r / 12),(-12n)))&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-182.5" y="-130" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e7ZRuDNEcXIY4bK4t6kx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e7ZRuDNEcXIY4bK4t6kx-11" target="e7ZRuDNEcXIY4bK4t6kx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--52" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="e7ZRuDNEcXIY4bK4t6kx-11" target="uRmu0ZygPyewiigmkrXm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7ZRuDNEcXIY4bK4t6kx-11" value="M&amp;gt;(0.3*MI)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e7ZRuDNEcXIY4bK4t6kx-13" target="uRmu0ZygPyewiigmkrXm-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7ZRuDNEcXIY4bK4t6kx-13" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;Display:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&#39;Warning: Payment may not be affordable.&#39;&lt;/p&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1037.5" width="355" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-3" target="uRmu0ZygPyewiigmkrXm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-3" value="Display:&lt;div&gt;&lt;p&gt;&#39;Would you like to proceed with applying for the loan?&lt;/p&gt;&lt;p&gt;Enter 1 for Yes or 2 for No.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1005" width="350" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-4" target="uRmu0ZygPyewiigmkrXm-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-4" target="uRmu0ZygPyewiigmkrXm-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-4" value="Decision==1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1480" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-8" target="uRmu0ZygPyewiigmkrXm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-8" value="&lt;div&gt;&lt;p&gt;Get int Decision&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="1280" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-11" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1060" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-12" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1060" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-13" target="uRmu0ZygPyewiigmkrXm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-13" value="Display:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;&lt;span style=&quot;background-color: initial;&quot;&gt;Enter total paid ammount:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Enter remaining months for loan repayment:&#39;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-851.25" y="450" width="405" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-15" target="LYB6ajkYGbn3poAuFUK--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-15" value="Get&amp;nbsp;&lt;div&gt;float T_paid as Total paid amount&lt;div&gt;int months_left as remaining months for payment&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-832.5" y="550" width="367.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-22" target="uRmu0ZygPyewiigmkrXm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-22" value="Display:&amp;nbsp;&lt;div&gt;&#39;Enter 1 for Loan Repayment&amp;nbsp;&lt;/div&gt;&lt;div&gt;or&amp;nbsp;&lt;/div&gt;&lt;div&gt;Enter 2 for Loan Application Process&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;or&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Enter 3 to exit.&#39;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="20" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-24" target="uRmu0ZygPyewiigmkrXm-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-24" value="Get int Choice" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-139" y="220" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-26" target="uRmu0ZygPyewiigmkrXm-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-26" target="uRmu0ZygPyewiigmkrXm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-26" value="Choice==1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-97.5" y="400" width="165" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-28" target="uRmu0ZygPyewiigmkrXm-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-28" target="e7ZRuDNEcXIY4bK4t6kx-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-28" value="Choice==2" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="400" width="165" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-32" target="uRmu0ZygPyewiigmkrXm-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-32" target="uRmu0ZygPyewiigmkrXm-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-32" value="Choice==3" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="400" width="165" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-34" target="uRmu0ZygPyewiigmkrXm-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="775" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-34" value="Display:&lt;div&gt;&#39;Please enter again&#39;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="457.5" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-39" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="425" y="630" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-41" target="LYB6ajkYGbn3poAuFUK--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-41" value="Display:&lt;div&gt;&#39;Loan application accepted.&#39;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="1530" width="275" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-43" target="uRmu0ZygPyewiigmkrXm-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-43" value="Display:&lt;div&gt;&#39;Loan application terminated.&#39;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1750" width="225" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-45" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1528" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-46" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1650" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-48" target="uRmu0ZygPyewiigmkrXm-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-48" target="uRmu0ZygPyewiigmkrXm-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-48" value="Decision==2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-167.5" y="1710" width="185" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-51" target="uRmu0ZygPyewiigmkrXm-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-377" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-51" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Display:&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#39;Enter valid input: &#39;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-477.5" y="1747.5" width="200" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-53" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1758" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-54" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1758" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-56" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="458" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-57" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="810" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-58" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="458" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-59" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="458" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-60" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="578" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-69" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;Display:&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;&#39;Loan Default: Extend Loan Period or Adjust Payment Plan.&#39;&amp;nbsp;&lt;/p&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-846.25" y="1252.5" width="400" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-71" target="uRmu0ZygPyewiigmkrXm-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-71" value="Display:&amp;nbsp;&lt;div&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&#39;Loan Repayment Successful!&#39;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-1068.75" y="758.1300000000001" width="210" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRmu0ZygPyewiigmkrXm-75" target="uRmu0ZygPyewiigmkrXm-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-75" value="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="435" y="755" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-78" value="1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="1200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-82" value="1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="1755" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uRmu0ZygPyewiigmkrXm-84" value="1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1003.75" y="895.19" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--1" value="Yes&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-201" y="451" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--4" value="1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="1520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LYB6ajkYGbn3poAuFUK--8" target="e7ZRuDNEcXIY4bK4t6kx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--8" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;p1&quot;&gt;Get:&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;int P as Loan amount,&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;float r as Annual interest rate,&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;int n&amp;nbsp; as Loan period in years,&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;int MI as User&#39;s monthly income&lt;/p&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-360" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--39" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LYB6ajkYGbn3poAuFUK--16" target="LYB6ajkYGbn3poAuFUK--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--16" value="Total_Unpaid = P - T_paid" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-788.75" y="650" width="280" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LYB6ajkYGbn3poAuFUK--20" target="uRmu0ZygPyewiigmkrXm-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-968.75" y="1285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LYB6ajkYGbn3poAuFUK--20" target="LYB6ajkYGbn3poAuFUK--29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-788.75" y="1445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Total_Unpaid == 0&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-728.75" y="732.5" width="160" height="136.25" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--23" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-768.75" y="770" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--26" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-646.25" y="868.75" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--35" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LYB6ajkYGbn3poAuFUK--29" target="LYB6ajkYGbn3poAuFUK--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--29" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Calculate remaining time in years as&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;float n&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;= months_left/12&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-796.25" y="910.8199999999999" width="300" height="64.37" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--41" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LYB6ajkYGbn3poAuFUK--34" target="LYB6ajkYGbn3poAuFUK--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--34" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Calculate float M as Monthly Repayment:&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;M = (Total_Unpaid * (r / 12)) / (1 - pow((1 + r / 12),(-12n)))&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-846.25" y="1010" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--42" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LYB6ajkYGbn3poAuFUK--40" target="uRmu0ZygPyewiigmkrXm-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--46" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LYB6ajkYGbn3poAuFUK--40" target="LYB6ajkYGbn3poAuFUK--45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--40" value="M&amp;gt;(0.3*MI)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-686.25" y="1132.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--43" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-651.25" y="1212.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--47" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LYB6ajkYGbn3poAuFUK--45" target="uRmu0ZygPyewiigmkrXm-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--45" value="Display:&lt;div&gt;&#39;Thank you for paying on time&#39;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="1142.5" width="312.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--48" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-764.75" y="1143.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LYB6ajkYGbn3poAuFUK--50" value="&lt;h1 style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 1.2; font-size: 1.875rem; font-family: Lato; text-align: left; text-wrap: wrap; background-color: rgb(242, 243, 247);&quot; id=&quot;yui_3_18_1_1_1729052477000_67&quot; class=&quot;h2&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;SCSE1013-02&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#007fff&quot;&gt;ASSIGNMENT 1&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;SHAHTAJ ZIMLY SHINEY&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;MATRIC ID: A24CS4034&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="686" y="-480" width="204" height="106" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
